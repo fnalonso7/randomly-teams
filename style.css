@@ -1,0 +1,25 @@
+.container {width: 800px; height: 400px; background-color: silver; margin: auto;
+
+}
+
+.table {
+    width: 100px; height: 100px; background-color:rgb(86, 129, 69);
+    position: fixed; left: 320px; top:60px;
+}
+.d-table {
+    position: fixed; left: 760px; top:60px;
+}
+
+.inputs {
+    position: fixed; left: 300px; top:30px;
+}
+
+.btn-dividir {
+    position: fixed; left: 760px; top:30px;
+}
+.equipo-uno {
+background-color: red;
+}
+.equipo-dos {
+background-color: blue;
+}

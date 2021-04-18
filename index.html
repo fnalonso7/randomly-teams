@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crea tu equipo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<div class="container">
+
+    <div class="inputs">
+        <label for="">Nombre</label>
+        <input type="text" id="jugador-nuevo">
+        <button id="btn-agregar-jugador" onclick="agregarJugador()">Ingresar</button>
+    </div>
+
+        
+        <button id="btn-dividir-equipos" class="btn-dividir" onclick="dividirEquipos()">Generar Equipos</button>
+    
+
+    <div class="tabla-participantes">
+        <table class="table" border="1">       
+            <thead>
+                <tr>
+                    <th>Nombres</th>
+                </tr>
+                <tbody id="equipos-tabla">
+               
+                </tbody>
+            </thead>
+        </table>
+    </div>
+
+    
+<div class="container">
+
+    <div class="tabla-dividida">
+        <table class= "d-table" border="1">
+            <thead>
+                <tr>
+                    <th class="equipo-uno">Equipo Uno</th>
+                    <th class="equipo-dos">Equipo Dos</th>
+                </tr>
+                <tbody id="equipos-divididos">
+
+                </tbody>
+            </thead>
+
+        </table>
+    </div>
+    
+</div>
+
+</body>
+<script src="app.js"></script>
+</html>
